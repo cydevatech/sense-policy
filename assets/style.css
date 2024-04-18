@@ -1,0 +1,1428 @@
+/* c*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0;
+}
+
+a.button-trothanhdoitac {
+    text-decoration: none;
+}
+
+body {
+    font-size: 14px;
+    font-family: 'SVN-Gilroy', sans-serif;
+}
+
+
+
+
+.header {
+    width: 100%;
+    top: 0px;
+    z-index: 1;
+    background-color: rgb(92, 79, 236);
+    position: fixed;
+    height: 60px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.PolicyBodyCSTitle--n7efmj.eOYHlb {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 26px;
+}
+
+p.PolicyTextBodyp0--uhn2v4.gnXrKP {
+    margin-bottom: 8px;
+    font-size: 15px;
+}
+
+.header-main {
+
+    width: 85%;
+    height: inherit;
+    position: relative;
+    margin: auto;
+    max-width: 1440px;
+    display: flex;
+    font-size: 16px;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-main .header-logo {
+    text-decoration: none;
+}
+
+.header-logo .header-logo-img img {
+    width: 80px;
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+}
+
+.header-menu a.home-menu.menu-header {
+    padding: 0px 12px;
+    color: rgb(91, 122, 79);
+    margin: 8px;
+    background: text rgb(255, 255, 255);
+    -webkit-text-fill-color: transparent;
+}
+
+.header-mobile {
+    display: block;
+}
+
+
+
+
+/*2. Home style  */
+
+.home-instruct {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background-color: rgb(91, 122, 79);
+    background-image: url(./img/BGBN.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+.home-instruct-container {
+    width: 85%;
+    height: inherit;
+    position: relative;
+    margin: auto;
+    max-width: 1440px;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 100px 0;
+
+}
+
+.home-instruct-1-apstor {
+    position: relative;
+    top: 57px;
+}
+
+
+/* 2.Home style  */
+/* 2.1 Banner */
+img.home-instruct-2-trangchuweb {
+    margin-top: 61px;
+}
+
+img.home-instruct-2-iphone.phonewap {
+    margin-top: 57px;
+}
+
+.home-instruct-1 {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.home-instruct-1 .home-instruct-1-nd {
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 56px;
+    color: rgba(255, 255, 255, 0.898);
+    font-family: Yeseva-One;
+}
+
+/* 2.Home style  */
+/* 2.2 button apstor */
+
+img.img-stor:hover {
+    opacity: 0.3;
+}
+
+.home-instruct-1-apstor {
+    display: flex;
+}
+
+.home-instruct-1-button1 {
+    margin-right: 18px;
+    height: 55px;
+}
+
+.home-instruct-1-button2 {
+    height: 55px;
+}
+
+.home-instruct-1-apstor .ap-stor {
+    cursor: pointer;
+    color: rgb(83, 109, 254);
+
+}
+
+a.ap-stor-a img {
+    height: 100% !important;
+    opacity: 1;
+    transition: opacity 0.2s ease 0s;
+    width: 170px;
+}
+
+/* 2.Home style  */
+/* 2.3 home-instruct-2 */
+.home-instruct-2 {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.home-instruct-2 .home-instruct-2-phonewap {
+    position: relative;
+    height: 500px;
+}
+
+.home-instruct-2 .phonewap {
+    position: absolute
+}
+
+.home-instruct-2-iphone {
+    height: 500px;
+}
+
+.home-instruct-2-wirel {
+    top: 50%;
+    left: -50%;
+    height: 80px;
+}
+
+.home-instruct-2-wirer {
+    top: 20%;
+    left: 95%;
+    height: 40px;
+}
+
+img.home-instruct-2-trangchuweb {
+    height: 500px;
+    border-radius: 30px;
+    padding: 8px 14px 10px 10px;
+}
+
+/* 2.Home style  */
+/* 2.4 Nội dung Banner trái và phải  */
+.home-instruct-2-ServiceWrap-left {
+    top: 58%;
+    left: 15%;
+}
+
+.home-instruct-2-ServiceWrap-right {
+    top: 26%;
+    left: 70%;
+}
+
+.phonewap p {
+    font-size: 16px;
+    color: rgb(208, 255, 189);
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.phonewap ul {
+    padding-left: 14px;
+}
+
+.phonewap li {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    line-height: 24px;
+}
+
+/* 2.Home style  */
+/* 2.5 nội dung banner dưới  */
+.home-instruct-3 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    padding-bottom: 28px;
+    justify-content: flex-end;
+}
+
+.home-instruct-3-icon {
+    display: flex;
+    padding-bottom: 15px;
+}
+
+.home-instruct-3-icon-img {
+
+    margin-right: 20px;
+}
+
+.home-instruct-3-icon-img img {
+    width: 34.39px;
+    height: 34.39px;
+}
+
+.home-instruct-3-tieude {
+    width: 100%;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+}
+
+.home-instruct-3-noidung {
+    width: 100%;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    opacity: 0.6;
+}
+
+/* 3.Footer style  */
+
+
+.footer-chinh {
+    background-image: url('img/bgft.png');
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.footer-main {
+    width: 85%;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.footer-container {
+    padding-top: 60px;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+
+/* 3.Footer style  */
+/* 3.1 Cột 1  */
+.footer-containet-row1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-container-row1-logo-p {
+    font-family: Yeseva-One;
+    width: 300px;
+    text-align: start;
+    margin-top: 16px;
+    font-size: 22px;
+    line-height: 24px;
+    color: rgb(99, 121, 79);
+    font-weight: 900;
+}
+
+.footer-container-row1-logo-img img {
+    width: 80px;
+}
+
+
+.footer-container-row1-dangki-img img {
+    width: 150px;
+}
+
+/* 3.Footer style  */
+/* 3.2 Cột 2  */
+.footer-containet-row2 {
+    width: 50%;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.footer-containet-row2-linkgroup {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer-containet-row2-linkgroup .lienketnhanh-p {
+    color: rgb(99, 121, 79);
+    padding: 8px 0px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer-containet-row2-linkgroup a.lienketnhanh-a {
+    width: 200px;
+    padding: 8px 0;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+
+}
+
+/* 3.Footer style  */
+/* 3.3 Cột 3  */
+.footer-containet-row3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-containet-row3-mxh {
+    padding: 4px;
+}
+
+.footer-containet-row3-mxh-img img {
+    width: 24px;
+}
+
+
+
+a.lienketnhanh-a:hover {
+    opacity: 0.3;
+}
+
+/* 3.Footer style  */
+/* 3.4 Nút backtotop */
+.button-trolen {
+    position: fixed;
+    bottom: 32px;
+    right: 33px;
+    z-index: 99;
+    padding: 10px;
+    background-color: rgb(124, 148, 115);
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 1px solid rgb(124, 148, 115);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 5px;
+    margin: 10px;
+}
+
+.button-trolen img {
+    height: 20px;
+    right: 100%;
+}
+
+
+
+
+/* Giao dien may tinh bang */
+@media only screen and (max-width: 1370px) {
+
+    .home-instruct-2-ServiceWrap-left {
+        top: 58%;
+        left: 0;
+        width: 300px;
+    }
+
+    .home-instruct-2-ServiceWrap-right {
+        top: 26%;
+        left: 80%;
+    }
+}
+
+/* Giao diện mobile */
+@media only screen and (max-width:1000px) {
+    .mobile-toger {
+        display: block !important;
+    }
+
+    .giaodienmaytinh {
+        display: none;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .footer-chinh {
+        display: none;
+    }
+
+    .footer-containet-row2-linkgroup {
+        margin-top: 20px;
+    }
+
+    .footer-container-row1-dangki-img img {
+        width: 180px;
+        margin-top: 18px;
+    }
+
+    .footer-containet-row2-linkgroup a.lienketnhanh-a {
+        font-size: 14px;
+    }
+}
+
+
+.mobile-toger {
+    display: none;
+}
+
+
+/* header monbile */
+.mobile-toger-header {
+    width: 100%;
+    top: 0px;
+    z-index: 1;
+    background-color: rgb(91, 122, 79);
+    position: fixed;
+    height: 60px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+@media only screen and (max-width:768px) {
+    .header-main {
+        margin: 0px;
+        width: 100%;
+        padding: 16px;
+        height: inherit;
+    }
+}
+
+
+.mobile-toger-header-logo-img img {
+    width: 80px;
+}
+
+.mobile-toger-header-butoon {
+    position: relative;
+}
+
+.mobile-toger-header-menuimg {
+    background: transparent;
+    color: white;
+    width: 24px;
+    height: 24px;
+    border: none;
+    cursor: pointer;
+}
+
+.mobile-toger-header-menuimg img {
+    width: 100%;
+}
+
+/* menu mobile */
+.mobile-toger-header-menu {
+    position: absolute;
+    top: 45px;
+    right: -15px;
+    width: 100vw;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 5px;
+    opacity: 0;
+    transform: translateY(100%);
+    height: 0px;
+    transition: opacity 1s ease 0s, transform 0.3s ease 0s;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.mobile-toger-header-menu.active {
+    position: absolute;
+    top: 60px;
+    right: 0px;
+    width: 100vw;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 5px;
+    opacity: 1;
+    transform: translateY(0px);
+    height: auto;
+    transition: opacity 1s ease 0s, transform 0.3s ease 0s;
+    z-index: 1;
+    overflow: hidden;
+}
+
+@media screen and (min-width: 820px) and (max-width: 912px) {
+    .mobile-toger-header-menu.active {
+        right: -65px;
+    }
+
+    .trothanhdoitaccuaglow1-nd1 {
+        width: 39%;
+    }
+}
+
+.mobile-toger-home-menu {
+    text-decoration: none;
+}
+
+.mobile-toger-home-intro-menu {
+    color: rgb(0, 0, 0);
+    font-size: 0.8125rem;
+    font-weight: 500;
+    align-self: center;
+    line-height: 1rem;
+    display: block;
+    width: 100%;
+    padding: 12px 20px;
+    font-family: 'SVN-Gilroy', sans-serif;
+}
+
+/* container */
+.mobile-toger-home-instruct {
+    background-color: rgb(91, 122, 79);
+    background-image: url(./img/BGBN.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    padding: 60px 0 20px 0;
+}
+
+.mobile-toger-home-instruct-1 {
+    font-weight: 600;
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    font-family: Yeseva-One;
+    padding: 20px 30px;
+    text-align: center;
+    line-height: 40px;
+
+}
+
+.mobile-toger-home-instruct-2 {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.mobile-toger-home-instruct-2-phonewap {
+    position: relative;
+    height: 500px;
+    width: 250px;
+}
+
+.mobile-toger-home-instruct-2 .phonewap {
+    position: absolute
+}
+
+.mobile-toger-home-instruct-2-iphone {
+    height: 500px;
+}
+
+.mobile-toger-home-instruct-2-wirel {
+    top: 50%;
+    left: -50%;
+    height: 80px;
+}
+
+.mobile-toger-home-instruct-2-wirer {
+    top: 20%;
+    left: 95%;
+    height: 40px;
+}
+
+img.mobile-toger-home-instruct-2-trangchuweb {
+    height: 500px;
+    border-radius: 30px;
+    padding: 8px 14px 10px 10px;
+}
+
+.mobile-toger-home-instruct-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+
+}
+
+.mobile-toger-home-instruct-3 {
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    margin-top: 10px;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.mobile-toger-home-instruct-3-butoon {
+    padding: 14px 38px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    position: relative;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.mobile-toger-home-instruct-3-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+
+/* footer */
+.mobile-toger-footerchinh {
+    background-image: url('img/bgft.png');
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mobile-toger-footer-container {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 16px;
+}
+
+.footer-mobile-toger {
+    display: flex;
+
+    flex-direction: column;
+}
+
+.mobile-toger-footer-containet-row2 {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 10px 0 8px 0;
+}
+
+.mobile-toger-footer-containet-row3 {
+    padding-top: 50%;
+}
+
+
+/* Trang Về Glow */
+/* phần thân */
+.VeGlow-home-instruct {
+    background-color: rgb(250, 249, 247);
+}
+
+.VeGlow-home-instruct-container {
+    width: 85%;
+    position: relative;
+    margin: auto;
+    max-width: 1440px;
+}
+
+.VeGlow-home-instruct-container-1 {
+    padding-top: 100px;
+    margin-bottom: 110px;
+    text-align: center;
+    width: 860px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.fQByoX {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(91, 122, 79);
+    margin-bottom: 12px;
+}
+
+.jmiDGB {
+    margin-bottom: 110px;
+    font-family: Yeseva-One;
+    font-size: 60px;
+    line-height: 80px;
+    color: rgb(91, 122, 79);
+    font-weight: 700;
+}
+
+.Chinhsachbaomat-nd5-6 {
+    margin-top: 16px;
+}
+
+.Chinhsachbaomat-nd5-7 {
+    font-weight: bold;
+}
+
+.VeGlow-home-instruct-container-2 {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    position: relative;
+}
+
+.VeGlow-home-instruct-container-2-img {
+    width: 55%;
+}
+
+.VeGlow-home-instruct-container-2-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.VeGlow-home-instruct-container-2-nd {
+    width: 40%;
+    position: relative;
+}
+
+.VeGlow-home-instruct-container-2-nd-elip {
+    position: absolute;
+    left: auto;
+    bottom: 0;
+}
+
+.VeGlow-home-instruct-container-2-nd-elip img {
+    width: 60px;
+    height: 40px;
+}
+
+.AboutTextHeader--mh9ssz.NzZga {
+    font-family: Yeseva-One;
+    margin-bottom: 36px;
+    color: rgb(91, 122, 79);
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.AboutTextBody--1y4vyo4.hPTjKg {
+    font-size: 18px;
+    text-align: justify;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgb(8, 13, 8);
+}
+
+.VeGlow-home-instruct-container-3 {
+    padding-top: 160px;
+    margin-bottom: 110px;
+    text-align: center;
+    width: 860px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.bocnd-3 {}
+
+.VeGlow-home-instruct-container-3-nd {
+    margin-bottom: 110px;
+    font-family: Yeseva-One;
+    color: rgb(91, 122, 79);
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 700;
+}
+
+.VeGlow-home-instruct-container-4 {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    position: relative;
+    flex-direction: row-reverse;
+    padding-bottom: 100px;
+}
+
+.AboutTextContent--14mv8ej.dVDbDg {
+    position: relative;
+    width: 40%;
+}
+
+.ekHJCN {
+    font-family: Yeseva-One;
+    font-weight: 700;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+.VeGlow-home-instruct-container-4-img {
+    width: 55%;
+}
+
+.VeGlow-home-instruct-container-4-img1 {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* nd5 */
+.VeGlow-home-instruct-container-5 {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.VeGlow-home-instruct-container-5-img {
+    width: 55%;
+}
+
+.gGJtEX {
+    padding-left: 24px;
+}
+
+/* giao dien mobile Glow */
+@media screen and (max-width: 768px) {
+    .VeGlow-home-instruct-container {
+        margin: 0px;
+        width: 100%;
+        padding: 0px 16px;
+    }
+
+    .VeGlow-home-instruct {
+        margin: 0px;
+        width: 100%;
+    }
+
+    .VeGlow-home-instruct-container-1 {
+        margin-top: 50px;
+        padding-top: 60px;
+        margin-bottom: 0px;
+        width: 100%;
+    }
+
+    .jmiDGB {
+        font-size: 32px;
+        line-height: 44px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 0px;
+    }
+
+    /* nd2 */
+    .VeGlow-home-instruct-container-2 {
+        flex-direction: column;
+        margin-top: 44px;
+    }
+
+    .VeGlow-home-instruct-container-2-img {
+        margin-bottom: 24px;
+        width: 100%;
+    }
+
+    .VeGlow-home-instruct-container-2-nd {
+        width: 100%;
+    }
+
+    .AboutTextHeader--mh9ssz.NzZga {
+        font-size: 20px;
+        line-height: 28px;
+        margin-top: 24px;
+        margin-bottom: 12px;
+    }
+
+    .AboutTextBody--1y4vyo4.hPTjKg {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .VeGlow-home-instruct-container-2-nd-elip img {
+        display: none;
+    }
+
+    /* nd3 */
+    .bocnd-3 {}
+
+    .VeGlow-home-instruct-container-3 {
+        margin-top: 0px;
+        width: 100%;
+        padding-top: 64px;
+        margin-bottom: 44px;
+    }
+
+    .VeGlow-home-instruct-container-3-nd {
+        width: 85%;
+        font-size: 32px;
+        line-height: 44px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 0px;
+    }
+
+    .egCept {
+        font-size: 32px;
+        line-height: 44px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 0px;
+    }
+
+    /* nd4 */
+    .VeGlow-home-instruct-container-4 {
+
+        flex-direction: column;
+    }
+
+    .dVDbDg {
+        width: 100% !important;
+    }
+
+    .VeGlow-home-instruct-container-4-img {
+        margin-bottom: 24px;
+        width: 100%;
+    }
+
+    .VeGlow-home-instruct-container-4-img1 {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* nd5 */
+    .VeGlow-home-instruct-container-5 {
+        flex-direction: column;
+        padding-bottom: 64px;
+    }
+
+    .VeGlow-home-instruct-container-5-img {
+        width: 100%;
+    }
+
+    .ekHJCN {
+        margin-bottom: 8px;
+        margin-top: 16px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+/* Trang chinh sach bao mat */
+.Chinhsachbaomat {
+    padding-top: 120px;
+    padding-bottom: 80px;
+    display: flex;
+    margin: auto;
+
+}
+
+.Chinhsachbaomat1 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(91, 122, 79);
+    font-family: Yeseva-One;
+}
+
+.Chinhsachbaomat-nd {
+    max-width: 800px;
+    margin: auto;
+    width: 100%;
+}
+
+.Chinhsachbaomat-nd2 {
+    width: 700px;
+    text-align: justify;
+    font-weight: 400;
+    line-height: 22px;
+    color: rgb(8, 13, 8);
+    font-style: italic;
+    font-size: 15px;
+}
+
+.Chinhsachbaomat-nd3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 26px;
+}
+
+.Chinhsachbaomat-nd4 {
+    width: 700px;
+    font-size: 15px;
+    text-align: justify;
+    font-weight: 400;
+    line-height: 22px;
+    color: rgb(8, 13, 8);
+}
+
+.Chinhsachbaomat-nd5 {
+    margin-bottom: 16px;
+}
+
+/* giao dien mobile chinh sach bao mat*/
+@media screen and (max-width: 768px) {
+
+    .Chinhsachbaomat {
+        margin: 0px;
+        padding: 100px 0px 32px;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .Chinhsachbaomat-nd2 {
+        margin-top: 24px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .Chinhsachbaomat-nd4 {
+        width: 100%;
+    }
+}
+
+/* giao dien tro thanh doi tac cua glow */
+/* phan nd1 */
+.PartnerContentInner--ybqu7i.fVGGKx {
+    position: relative;
+    margin: auto;
+    max-width: 1440px;
+    width: 85%;
+}
+
+.trothanhdoitaccuaglow1 {
+    padding-top: 120px;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.trothanhdoitaccuaglow1-nd1 {
+    width: 40%;
+}
+
+.trothanhdoitaccuaglow1-nd2 {
+    margin-bottom: 8px;
+    color: rgb(91, 122, 79);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.trothanhdoitaccuaglow1-nd3 {
+    margin-top: 12px;
+    color: rgb(91, 122, 79);
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 700;
+    font-family: Yeseva-One;
+}
+
+.trothanhdoitaccuaglow1-nd4 {
+    width: 60%;
+}
+
+.trothanhdoitaccuaglow1-nd5 {
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    color: rgb(8, 13, 8);
+}
+
+.button-trothanhdoitac {
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    color: rgb(8, 13, 8);
+}
+
+.button-trothanhdoitac-nd {
+    margin-top: 40px;
+    color: rgb(252, 253, 252);
+    text-align: center;
+    width: 190px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 24px;
+    padding: 12px 24px;
+    background-color: rgb(91, 122, 79);
+    opacity: 1;
+    transition: opacity 0.2s ease 0s;
+    cursor: pointer;
+}
+
+.button-trothanhdoitac-nd:hover {
+    opacity: 0.3;
+}
+
+.trothanhdoitaccuaglow1-img2 {
+    width: 100%;
+    padding-top: 120px;
+    margin: auto;
+}
+
+/* trothanhdoitaccuaglow2 */
+.trothanhdoitaccuaglow2 {
+    position: relative;
+    margin: auto;
+    max-width: 1440px;
+}
+
+.trothanhdoitaccuaglow2-nd {
+    padding-top: 80px;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding-bottom: 120px;
+}
+
+.trothanhdoitaccuaglow2-nd1-img {
+    width: 35%;
+}
+
+.PartnerSection3LeftImgWrap--4w8lic.eloSLV {
+    width: 100%;
+    height: 100%;
+}
+
+.trothanhdoitaccuaglow2-nd1-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.trothanhdoitaccuaglow2-nd2 {
+    width: 60%;
+}
+
+.trothanhdoitaccuaglow2-noidung {
+    font-family: Yeseva-One;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    color: rgb(51, 52, 56);
+    margin-bottom: 120px;
+}
+
+.hsgCPC {
+    display: flex;
+    flex-direction: column;
+}
+
+.kgiZix {
+    display: flex;
+    padding: 24px;
+    border-bottom: 1px solid rgb(230, 231, 230);
+}
+
+.jBXHgd {
+    width: 38px;
+    margin-right: 24px;
+    height: 74px;
+    color: rgb(181, 182, 181);
+    font-family: Yeseva-One;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 74px;
+}
+
+.eZMlwa {
+    width: 80%;
+}
+
+.hhpdig {
+    margin-bottom: 12px;
+    color: rgb(51, 52, 56);
+    font-family: Yeseva-One;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.cPtLOf {
+    width: 70%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgb(82, 86, 82);
+}
+
+/* phan nd3 */
+.bxYNGK {
+    background-color: rgb(224, 233, 221);
+    padding-top: 120px;
+}
+
+.bxxdZN {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.eRlFLG {
+    width: 50%;
+}
+
+.bGjrTV {
+    display: none;
+}
+
+.byaqax {
+    margin-bottom: 40px;
+    font-family: Yeseva-One;
+    font-weight: 700;
+    line-height: 60px;
+    font-size: 48px;
+    color: rgb(51, 52, 56);
+}
+
+.kfvvfS {
+    border-bottom: 1px solid rgb(185, 204, 176);
+    width: 70%;
+    display: flex;
+    padding: 24px;
+}
+
+.kfvvfS {
+    border-bottom: 1px solid rgb(185, 204, 176);
+    width: 75%;
+    display: flex;
+    padding: 24px;
+}
+
+.lcFssx {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.PartnerSection4LeftContentDownloadLink--10pnpdc.iifqjh {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.HomeLeftContentDownloadItem--z1ooyr.crTCNs {
+    display: flex;
+}
+
+img.HomeLeftContentDownloadQrImg--md4hdn.iAaKve {
+    width: 117px;
+}
+
+img.HomeLeftContentDownloadBtnImg--msqm2c.eJgtDq {
+    width: 117px;
+}
+
+.HomeLeftContentDownloadQr--15fyds8.fmGWXH {
+    padding: 10px;
+}
+
+.HomeLeftContentDownloadBtn--oxx939.iseXUm {
+    padding: 10px;
+}
+
+.cCuQKi {
+    display: flex;
+    width: 100%;
+}
+
+.gESZKI {
+    object-fit: contain;
+    width: 100%;
+}
+
+.PartnerContentInner--ybqu7i.fVGGKx {
+    width: 85%;
+    margin: auto;
+}
+
+.chplay {
+    height: 39px;
+}
+
+
+img.HomeLeftContentDownloadQrImg--md4hdn.iAaKve:hover {
+    opacity: 0.3;
+}
+
+img.HomeLeftContentDownloadBtnImg--msqm2c.eJgtDq.chplay:hover {
+    opacity: 0.3;
+}
+
+
+/* giao diện mobile trothanhdoitac */
+@media screen and (max-width: 768px) {
+
+    .trothanhdoitaccuaglow1 {
+        flex-direction: column;
+        padding-top: 80px;
+    }
+
+    .trothanhdoitaccuaglow1-nd1 {
+        width: 100%;
+    }
+
+    .trothanhdoitaccuaglow1-nd2 {
+        display: block;
+    }
+
+    .trothanhdoitaccuaglow1-nd4 {
+        width: 100%;
+    }
+
+    .trothanhdoitaccuaglow1-nd5 {
+        width: 100%;
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .trothanhdoitaccuaglow2-nd {
+        flex-direction: column-reverse;
+        padding-bottom: 0px;
+    }
+
+    .trothanhdoitaccuaglow2-nd2 {
+        width: 100%;
+    }
+
+    .trothanhdoitaccuaglow2-noidung {
+        line-height: 44px;
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+
+    .cPtLOf {
+        width: 100%;
+    }
+
+    /* hinh anh */
+    .trothanhdoitaccuaglow2-nd1-img {
+        width: 100%;
+    }
+
+    /* mobile noi dung 3 */
+    .bxxdZN {
+        flex-direction: column;
+    }
+
+    .byaqax {
+        font-size: 32px;
+        line-height: 44px;
+    }
+
+    .eRlFLG {
+        width: 100%;
+    }
+
+    .bGjrTV {
+        margin-bottom: 8px;
+        color: rgb(91, 122, 79);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        display: flex;
+    }
+
+    .kfvvfS {
+        width: 100%;
+        padding: 24px;
+    }
+
+    .bxYNGK {
+        padding-top: 64px;
+    }
+
+
+    .hhpdig {
+        font-size: 20px;
+    }
+}
